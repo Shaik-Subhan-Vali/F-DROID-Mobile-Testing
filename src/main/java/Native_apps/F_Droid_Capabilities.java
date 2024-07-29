@@ -19,7 +19,7 @@ public class F_Droid_Capabilities {
         dc.setCapability(MobileCapabilityType.DEVICE_NAME, "My_Emulator");
         dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "org.fdroid.fdroid");
-        dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "org.fdroid.fdroid.nearby.SwapWorkflowActivity");
+        dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "org.fdroid.fdroid.views.main.MainActivity");
         dc.setCapability(MobileCapabilityType.NO_RESET, true);
 
         URL url = new URL("http://0.0.0.0:4723/wd/hub");
