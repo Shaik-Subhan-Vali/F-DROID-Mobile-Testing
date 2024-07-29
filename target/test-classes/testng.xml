@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tests" thread-count="1">
+
+    <test name="mobile Test">
+        <classes>
+            <class name="F_Droid_Automation" />
+            <!-- Add more test classes as needed -->
+        </classes>
+    </test>
+</suite>
